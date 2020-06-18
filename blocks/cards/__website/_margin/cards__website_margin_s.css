@@ -1,0 +1,9 @@
+.cards__website_margin_s {
+  margin-top: 30px;
+}
+
+@media screen and (max-width:768px) {
+  .cards__website_margin_s {
+    margin-top: 0;
+  }
+}

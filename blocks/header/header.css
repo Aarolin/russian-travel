@@ -1,0 +1,16 @@
+@import url('./__row/header__row.css');
+@import url('./__links/header__links.css');
+@import url('./__link-lang/header__link-lang.css');
+
+.header {
+  width: 100%;
+  padding-top: 28px;
+  box-sizing: border-box;
+}
+
+
+@media screen and (max-width:320px) {
+  .header {
+    padding-top: 16px;
+  }
+}

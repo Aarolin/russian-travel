@@ -1,0 +1,9 @@
+.places {
+
+}
+
+@media  screen and (max-width:320px) {
+  .places {
+    max-width: 320px;
+  }
+}
