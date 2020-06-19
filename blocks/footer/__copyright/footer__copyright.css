@@ -8,3 +8,11 @@
   color: #FFFFFF;
   margin: 0;
 }
+
+@media screen and (max-width:425px) {
+  .footer__copyright {
+    width: 100%;
+    line-height: 1.0;
+    text-align: left;
+  }
+}

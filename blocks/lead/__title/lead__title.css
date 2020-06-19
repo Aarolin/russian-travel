@@ -5,21 +5,22 @@
   font-style: normal;
   font-weight: 900;
   font-size: 96px;
-  line-height: 100px;
+  line-height: 1.04;
   text-align: center;
   color: #FFFFFF;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 767px) {
   .lead__title {
-    max-width: 343px;
-    font-size: 40px;
-    line-height: 1.10;
+    max-width: 353px;
+    font-size: 52px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .lead__title {
     max-width: 288px;
+    font-size: 40px;
+    line-height: 1.10;
   }
 }

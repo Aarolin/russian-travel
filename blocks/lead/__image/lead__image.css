@@ -4,28 +4,14 @@
   margin: 64px auto 0;
 }
 
-/* @media screen and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
   .lead__image {
-    max-width: 928px;
     margin-top: 56px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .lead__image {
-    max-width: 768px;
   }
 }
 
 @media screen and (max-width: 425px) {
   .lead__image {
-    max-width: 425px;
     margin-top: 40px;
   }
 }
-@media screen and (max-width: 320px) {
-  .lead__image {
-    max-width: 320px;
-  }
-} */
-

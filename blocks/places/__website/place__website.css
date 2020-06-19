@@ -1,0 +1,30 @@
+@import url('./_margin/place__website_margin_l.css');
+@import url('./_margin/place__website_margin_s.css');
+
+.place__website {
+  max-width: 456px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 48px;
+  margin-left: 40px;
+}
+
+@media screen and (max-width:1024px) {
+  .place__website {
+    margin-left: 32px;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .place__website {
+    max-width: 352px;
+    margin-left: 28px;
+  }
+}
+
+@media screen and (max-width:425px) {
+  .place__website {
+    display: none;
+  }
+}

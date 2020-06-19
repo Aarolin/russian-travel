@@ -1,16 +1,29 @@
-@import url('./__row/header__row.css');
 @import url('./__links/header__links.css');
 @import url('./__link-lang/header__link-lang.css');
-
+@import url('./__logo/header__logo.css');
 .header {
-  width: 100%;
+  width: 92%;
   padding-top: 28px;
-  box-sizing: border-box;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
 }
 
 
+@media screen and (max-width:1024px) {
+  .header {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width:768px) and (min-width:321px) {
+  .header {
+    width: 94%;
+  }
+}
+
 @media screen and (max-width:320px) {
   .header {
-    padding-top: 16px;
+    width: 90%;
   }
 }

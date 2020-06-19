@@ -1,4 +1,4 @@
-.cards__link  {
+.place__link  {
   font-family: 'Inter';
   font-style: normal;
   font-weight: normal;
@@ -9,7 +9,7 @@
   opacity: 1;
   transition: opacity 0.3s linear;
 }
-.cards__link:hover {
+.place__link:hover {
   opacity: 0.5;
 }
 

@@ -1,19 +1,28 @@
-@import url('./__content/lead__content.css');
 @import url('./__title/lead__title.css');
 @import url('./__subtitle/lead__subtitle.css');
 @import url('./__image/lead__image.css');
 @import url('./__caption/lead__caption.css');
 
 .lead {
-  width: 76%;
+  width: 77%;
   padding-top: 56px;
   margin: 0 auto;
   box-sizing: border-box;
 }
 
-@media screen and (max-width:1024px) {
+@media screen and (max-width:1024px) and (min-width:769px) {
   .lead {
+    width: 90%;
     padding-top: 48px;
   }
 }
+
+@media screen and (max-width:768px) {
+  .lead {
+    width: 100%;
+    padding-top: 48px;
+    margin: 0;
+  }
+}
+
 

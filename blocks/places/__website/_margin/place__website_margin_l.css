@@ -1,0 +1,15 @@
+.place__website_margin_l {
+  margin-top: 106px;
+}
+
+@media screen and (max-width:768px) {
+  .place__website_margin_l {
+    margin-top: 46px;
+  }
+}
+
+@media screen and (max-width:425px) {
+  .place__website_margin_l {
+    margin-top: 0;
+  }
+}
