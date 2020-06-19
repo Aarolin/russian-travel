@@ -24,7 +24,6 @@
     width: 90%;
     font-size: 32px;
     line-height: 1.09;
-    margin: 0 0 32px;
-    text-align: center;
+    margin: 0 0 32px 16px;
   }
 }
