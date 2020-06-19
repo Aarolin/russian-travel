@@ -3,14 +3,14 @@
 @import url('./__list/intro__list.css');
 
 .intro {
-  width: 100%;
+  width: 54%;
   padding-left: 148px;
-  box-sizing: border-box;
   display: flex;
   flex-direction: column;
 }
 @media screen and (max-width:1024px) {
   .intro {
+    width: 68%;
     padding-left: 48px;
   }
 }
@@ -19,7 +19,7 @@
   .intro {
     width: 94%;
     padding-left: 0;
-    margin: 0 auto;
+    margin: 0 auto 64px;
   }
 }
 

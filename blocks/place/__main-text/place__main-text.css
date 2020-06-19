@@ -1,0 +1,21 @@
+.place__main-text {
+    width: 43%;
+    margin-left: 40px;
+    box-sizing: border-box;
+
+}
+
+
+@media screen and (max-width:1024px) {
+    .place__main-text {
+      width: 45%;
+      margin-left: 32px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .place__main-text {
+      width: 95%;
+      margin: 32px auto 0;
+    }
+}
