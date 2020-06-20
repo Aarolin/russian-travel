@@ -1,5 +1,5 @@
 .place__main-text {
-    width: 43%;
+    width: 47%;
     margin-left: 40px;
     box-sizing: border-box;
 
@@ -8,7 +8,7 @@
 
 @media screen and (max-width:1024px) {
     .place__main-text {
-      width: 45%;
+      /* width: 45%; */
       margin-left: 32px;
     }
 }
