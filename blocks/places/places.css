@@ -1,24 +1,24 @@
 @import url('../place/place.css');
 
 .places {
-  width: 77%;
+  max-width: 984px;
   margin: 0 auto;
 }
 
 @media screen and (max-width:1024px) {
   .places {
-    width: 90%;
+    max-width: 924px;
   }
 }
 
 @media screen and (max-width:768px){
   .places {
-    width: 94%;
+    max-width: 720px;
   }
 }
 
 @media screen and (max-width:600px){
   .places {
-    width: 100%;
+    max-width: 600px;
   }
 }
