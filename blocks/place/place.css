@@ -7,9 +7,32 @@
 @import url('./__paragraph/place__paragraph.css');
 
 .place {
-  width: 100%;
-  margin: 0 auto 80px;
+  max-width: 984px;
+  margin-bottom: 80px;
   display: flex;
   flex-wrap: wrap;
 }
+
+@media screen and (max-width:1024px) {
+  .place {
+    max-width: 924px;
+  }
+}
+
+@media screen and (max-width:768px){
+  .place {
+    max-width: 720px;
+    margin-bottom: 72px;
+    }
+}
+
+@media screen and (max-width:600px){
+  .place {
+    max-width: 568px;
+    margin-bottom: 48px;
+  }
+}
+
+
+
 

@@ -24,7 +24,7 @@
 }
 
 .cover__item:hover::after {
-  opacity: 0.5;
+  opacity: 0.8;
 }
 
 @media screen and (max-width:1024px) {

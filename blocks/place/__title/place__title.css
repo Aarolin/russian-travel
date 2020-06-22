@@ -1,7 +1,7 @@
 .place__title {
   width: 47%;
   margin: 0 0 48px;
-  font-family: 'Inter', 'Comins Sans MS',  sans-serif;
+  font-family: 'Inter', 'Arial',  sans-serif;
   font-style: normal;
   font-weight: 900;
   font-size: 72px;
@@ -11,6 +11,11 @@
 }
 
 
+@media screen and (max-width:895px) {
+  .place__title {
+    font-size: 62px;
+  }
+}
 @media screen and (max-width:768px){
   .place__title {
     width: 48%;
@@ -24,6 +29,6 @@
     width: 90%;
     font-size: 32px;
     line-height: 1.09;
-    margin: 0 0 32px 16px;
+    margin: 0 0 32px 0px;
   }
 }

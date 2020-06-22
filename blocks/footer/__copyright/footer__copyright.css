@@ -1,5 +1,5 @@
 .footer__copyright {
-  font-family: 'Inter', 'Comins Sans MS',  sans-serif;
+  font-family: 'Inter', 'Arial',  sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -11,7 +11,7 @@
 
 @media screen and (max-width:425px) {
   .footer__copyright {
-    width: 100%;
+    /* width: 100%; */
     line-height: 1.0;
     text-align: left;
   }
