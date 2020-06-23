@@ -29,6 +29,12 @@
     width: 90%;
     font-size: 32px;
     line-height: 1.09;
-    margin: 0 0 32px 0px;
+    margin: 0 0 32px 0;
+  }
+}
+
+@media screen and (max-width:425px) {
+  .place__title {
+    margin: 0 auto 32px;
   }
 }
